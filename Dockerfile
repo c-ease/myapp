@@ -1,5 +1,5 @@
 FROM python:3.11-slim-buster
-WORKDIR /app
+WORKDIR /myapp
 COPY . .
 RUN python manage.py migrate
 EXPOSE 8000
